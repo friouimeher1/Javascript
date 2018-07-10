@@ -16,5 +16,38 @@
  
  return "Hi Engineering"
  
- 
+ const car={
+    color:'red',
+    year:2015,
+    company:"ford",
+    title:(title)=>{
+    return title
+    }
+    }
+    
+    console.log(car)
+    
+    =====> as output : {color: "red", year: 2015, company: "ford", title: ƒ}
+    
+    - when you try to execute function :
+    
+    car.title("ABC")
+    
+    return "ABC"
+    
+    exemple :
+    
+    const student ={
+    "lastName and lastName":"FRIOUI Meher",
+    age:20000   
+    
+    }
+    
+    you have two way to acces the properties in the obecjt using :
+    
+    * dot like : student.age return 20000
+    
+    *brakets like for exemple student['firstName and lastName'] : return " FRIOUI Meher"
+    
+    
  
