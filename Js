@@ -1,0 +1,20 @@
+ create object :
+ 
+ const obj = new Object ()
+ 
+ obj.name ="Engineering"
+ 
+ obj.test =()=>{
+ return "Hi Engineering"
+ }
+ 
+ console.log(obj)
+ 
+ ===================> As output : {name: "Engineering", test: ƒ}
+ 
+ when you try to execute the function : obj.test() 
+ 
+ return "Hi Engineering"
+ 
+ 
+ 
