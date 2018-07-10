@@ -79,3 +79,40 @@ let person = new fullName('meher',20)
 person return  fullName {name: "meher", age: 20}
 typeof fullName return "function"
  
+ 
+ 
+ class Car {
+    constructor(name,age){
+    this.name=name
+    this.age=age
+ }
+   renderName  (name){
+   return `${name}`
+   }
+ }
+ 
+ to loop throw this object
+ 
+ let p =new Car('ABC',20) return arrays contain the values of the objects
+ 
+ Object.keys(p) return arrays contain the values of the objects
+ 
+ Object.values(p)
+ 
+ for (i in p ){
+    console.log(i)
+    console.log(p.i)
+}
+
+
+ 
+ delete object 
+ 
+ {one: 1, two: 2, three: 3} 
+ 
+ let x = delete a.three 
+ 
+ if (x) alert('delete sucess')
+
+
+ 
