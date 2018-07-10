@@ -50,4 +50,32 @@
     *brakets like for exemple student['firstName and lastName'] : return " FRIOUI Meher"
     
     
+   const a ={
+    name:'Meher',
+    renderName:function (){
+        return `My name is ${this.name}`
+    }
+}
+    
+    
+    console.log(a)
+    
+    render ====> {name: "Meher", renderName: ƒ}
+    
+    to execute function :
+    
+    a.renderName()
+    
+    how to construct object :
+    
+    
+    function fullName(name,age){
+    this.name =name
+    this.age=age
+}
+
+let person = new fullName('meher',20)
+
+person return  fullName {name: "meher", age: 20}
+typeof fullName return "function"
  
