@@ -114,5 +114,34 @@ typeof fullName return "function"
  
  if (x) alert('delete sucess')
 
++ return max length of the string
+* First solution
+create function to render max value
+
+       maxvalue =(a,b)=>{
+           if(a>b)
+               return a
+           else
+               return b
+       }
+       
+as a result 
+
+maxvalue(5,6)
+6
+
+renderWords = (str,maxvalue)=>{
+    let tab = str.trim().split(' ')
+    let max = 0
+	for(let i of tab){
+	max = maxvalue(i.length,max)
+    }
+return max
+}
+* second solution
+
+findWords=(str)=>{
+    return str.split(' ').reduce((a,b)=>{ return Math.max(a,b.length) },0) 
+}
 
  
